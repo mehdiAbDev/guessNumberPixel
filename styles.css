@@ -8,9 +8,11 @@ body {
     overflow-x: hidden;
     width: 100%;
     height: 100%;
+    cursor: context-menu;
 }
 /* !  buttons section ++++++++++++++++++++++++++++++++++ */
 .btn-styles {
+    cursor: pointer;
     font-family: 'pixelboy';
     background-color: whitesmoke;
     color: #111;
@@ -124,6 +126,7 @@ body {
     margin-bottom: 4em;
 }
 .downside #guess {
+    cursor: insert;
     font-size: 2em;
     background-color: whitesmoke;
     font-family: 'pixelboy';
