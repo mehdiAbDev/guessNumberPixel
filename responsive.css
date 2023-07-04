@@ -1,0 +1,50 @@
+.top-header p {
+    font-size: 0.7rem;
+}
+.top-header button {
+    width: 5rem;
+}
+.top-header {
+    display: flex;
+    gap:20px;
+    flex-direction: column-reverse;
+}
+.modalpara {
+    width: auto;
+}
+.overlay {
+    height: 100vh;
+}
+.downside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-bottom: 1rem;
+}
+.guessing {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-right: 0;
+}
+.downside #guess {
+    background-color: whitesmoke;
+    font-family: 'pixelboy';
+    color: whitesmoke;
+    background-color: #111;
+    border: 7px solid whitesmoke;
+    width: 4rem;
+    height: 4rem;
+    margin-bottom: 1rem;
+}
+.results {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}

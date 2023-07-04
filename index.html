@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style></style>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" media="(max-width: 453px)" href="responsive.css">
+        <title>Guess My Number</title>
+    </head>
+    <body>
+        <div class="modal">
+            <p class="modalpara hidden">
+                <button class="close-modal">X</button>
+                i made this game as a practice to let you see my skills. feel free to look
+                around and i hope that you like this portfolio and i'm capable of doing many
+                other things
+            </p>
+        </div>
+        <div class="overlay hidden"></div>
+        <header class="top-header">
+            <button id="again-btn" class="btn-styles">Again</button>
+            <button id="credits-button" class="btn-styles">Credit</button>
+            <p>Between 1 and 20</p>
+        </header>
+        <div class="center-header">
+            <h1>Guess My Number</h1>
+            <span id="number">?</span>
+        </div>
+        <div class="downside">
+            <div class="guessing">
+                <input type="number" id="guess">
+                <button id="check-btn" class="btn-styles">Check!</button>
+            </div>
+            <div class="results">
+                <p id="the-message">Start Guessing...</p>
+                <p>💯Score:
+                    <span id="score"></span>
+                </p>
+                <p>🥇Highscore:
+                    <span id="highscore"></span></p>
+            </div>
+        </div>
+        <footer>
+            <p>Created By mehdiAbDev  </p>
+                <!-- <img src="logo.png" alt="" class="logo"> -->
+            </footer>
+            <script src="index.js"></script>
+        </body>
+    </html>
