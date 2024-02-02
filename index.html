@@ -8,6 +8,8 @@
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" media="(max-width: 453px)" href="responsive.css">
+          <script src="https://cdn.tailwindcss.com"></script>
+
         <title>Guess My Number</title>
     </head>
     <body>
@@ -42,11 +44,24 @@
                 <p>🥇Highscore:
                     <span id="highscore"></span></p>
             </div>
-        </div>
-        <footer>
-            <p>Created By mehdiAbDev  </p>
-                <!-- <img src="logo.png" alt="" class="logo"> -->
-            </footer>
-            <script src="index.js"></script>
+        </div> <footer class="flex gap-3 justify-center items-center nav__bar p-6">
+      <a
+        href="https://t.me/mehdi_abbane"
+        class="fa fa-telegr text-white transform hover:translate-y-1 duration-500 font-bold  am"
+        aria-hidden="true"
+      >Telegram</a>
+      <a
+        href="https://www.facebook.com/frontendmehdi"
+        class="fa fa-facebo text-white transform hover:translate-y-1 duration-500 font-bold  ok"
+        aria-hidden="true"
+      >Facebook</a>
+      <a
+        href="https://github.com/mehdiAbDev"
+        class="fa fa-github text-white transform hover:translate-y-1 duration-500 font-bold  "
+        aria-hidden="true"
+      >GitHub</a>
+      Developed by <span class=" font-bold"> mehdiAbDev</span>
+    </footer>
         </body>
+            <script src="index.js"></script>
     </html>
